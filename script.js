@@ -104,7 +104,7 @@ function check_Win() {
 }
 
 for (var i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener("touchstart", function () {
+    buttons[i].addEventListener("click", function () {
         nextTurn(this);
     });
 }
